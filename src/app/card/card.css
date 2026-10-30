@@ -1,0 +1,31 @@
+.card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #FCCEE8;
+  border-radius: 20px;
+}
+
+.post-picture{
+  max-width: 65%;
+  padding-right: 10px;
+}
+
+.post-picture img{
+  max-width: 100%;
+  display: block;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.post-info{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 35%;
+}
+
+.general-info{
+  display: flex;
+  flex-direction: column;
+}

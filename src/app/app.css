@@ -1,0 +1,33 @@
+/*#A2F4FD blue*/
+/*#96F7E4 green*/
+/*#A3B3FF cool purple*/
+/*#C4B4FF warm purple*/
+/*#FCCEE8 pink*/
+
+.content{
+  min-height: 100vh;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FCCEE8;
+  padding: 10px;
+}
+
+.welcome{
+  text-align: center;
+  margin: 10px;
+}
+
+.posts{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.post{
+  max-width: 30%;
+}
